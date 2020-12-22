@@ -51,5 +51,7 @@ def get_email_info():
   message = get_info()
 
   send_email(receiver, subject, message)
+  talk('Ei preguiçoso. Seu email foi enviado')
+  talk('Quer enviar mais email?')
 
 get_email_info()
